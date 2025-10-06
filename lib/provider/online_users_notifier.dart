@@ -5,7 +5,7 @@ class OnlineUsersNotifier extends ChangeNotifier {
   final List<User> _users = [
     User(id: '1', name: 'Anninha', isOnline: true),
     User(id: '2', name: 'Guii'),
-    User(id: '3', name: 'Chiara', isOnline: true),
+    User(id: '3', name: 'Enrique', isOnline: true),
     User(id: '4', name: 'Gigi'),
   ];
 
