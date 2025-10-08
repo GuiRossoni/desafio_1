@@ -3,6 +3,9 @@ import 'package:provider/provider.dart';
 import '../provider/online_users_notifier.dart';
 import '../widgets/user_tile.dart';
 
+/// View (Provider) demonstrando busca + filtro local "somente online".
+/// Mantém estado interno (_onlyOnline) e delega busca ao notifier.
+
 class ProviderView extends StatefulWidget {
   const ProviderView({super.key});
 

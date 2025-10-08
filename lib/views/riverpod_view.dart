@@ -3,6 +3,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../viewmodels/online_users_state_notifier.dart';
 import '../widgets/user_tile.dart';
 
+/// View baseada em Riverpod que consome a composição de providers:
+/// - Busca (searchTermProvider)
+/// - Filtro de status (showOnlyOnlineProvider)
+/// - Lista derivada (filteredUsersProvider)
+
 class RiverpodView extends ConsumerWidget {
   const RiverpodView({super.key});
 

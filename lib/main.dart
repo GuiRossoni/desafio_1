@@ -5,12 +5,16 @@ import 'package:provider/provider.dart' as legacy_provider;
 import 'provider/online_users_notifier.dart';
 import 'views/provider_view.dart';
 import 'views/riverpod_view.dart';
-// Estrutura MVVM: viewmodels + repositories
+
+/// Arquivo principal: configura Provider (ChangeNotifier) e Riverpod lado a lado.
+/// Objetivo pedagógico: comparar mutabilidade (Provider) vs imutabilidade + composição (Riverpod).
+/// Estrutura MVVM aplicada com Repository para fonte de dados.
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
 }
 
+/// Raiz da aplicação contendo registro dos providers e tema.
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -35,6 +39,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/// Tela principal exibindo duas abordagens de gerenciamento de estado.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../models/user.dart';
 
+/// Componente reutilizável para exibir um usuário com avatar, nome e status.
+/// Dispara [onTap] quando o item é tocado.
 class UserTile extends StatelessWidget {
   final User user;
   final VoidCallback onTap;
