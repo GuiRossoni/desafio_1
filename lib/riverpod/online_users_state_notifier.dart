@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/user.dart';
 
-/// Versão inicial (legacy) do `OnlineUsersStateNotifier` antes da refatoração para
+/// Versão inicial do `OnlineUsersStateNotifier` antes da refatoração para
 /// a pasta `viewmodels/`. Mantida apenas para referência histórica ou comparação.
 class OnlineUsersStateNotifier extends StateNotifier<List<User>> {
   /// Inicializa com uma lista estática de usuários (imutabilidade por cópia de lista).

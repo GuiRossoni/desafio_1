@@ -7,7 +7,7 @@ import 'views/provider_view.dart';
 import 'views/riverpod_view.dart';
 
 /// Arquivo principal: configura Provider (ChangeNotifier) e Riverpod lado a lado.
-/// Objetivo pedagógico: comparar mutabilidade (Provider) vs imutabilidade + composição (Riverpod).
+/// Objetivo comparar mutabilidade (Provider) vs imutabilidade + composição (Riverpod).
 /// Estrutura MVVM aplicada com Repository para fonte de dados.
 
 void main() {
@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Simulador de Status Online')),
+      appBar: AppBar(title: const Text('Gigi Melhor Professor')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
